@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metoda fatch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Metoda pobierania danych z API</h1>
+
+    <form class="generator">
+        <label for="gender">wybierz osobę</label>
+        <select name="gender" id="">
+            <option value="both" selected>Wszyscy</option>
+            <option value="male">Mężczyzna</option>
+            <option value="female">Kobieta</option>
+        </select>
+
+        <input type="number" name="count" value="10">
+        <button>Pobierz</button>
+    </form>
+
+    <div class="users-list"></div>
+ <script src="js/main.js"></script>   
+</body>
+</html>
